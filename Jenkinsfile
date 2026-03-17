@@ -31,7 +31,7 @@ pipeline {
             }
         }
 
-        stage('Generate Report) {
+        stage('Generate Report') {
             steps {
                 sh 'mvn jacoco:report'
             }
