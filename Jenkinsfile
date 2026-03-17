@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'Docker-Hub'
-        DOCKERHUB_REPO = 'nurha2024/OTP2_week1_assignment'
+        DOCKERHUB_REPO = 'nurha2024/otp2_week1_assignment'
         DOCKER_IMAGE_TAG = 'latest'
         PATH = "/usr/local/bin:/opt/homebrew/bin:$PATH"
     }
